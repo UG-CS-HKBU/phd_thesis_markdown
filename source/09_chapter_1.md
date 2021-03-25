@@ -1,3 +1,8 @@
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\doublespacing
+\setlength{\parindent}{0.5in}
+
 # Introduction, with a citation
 
 ## Background
@@ -27,11 +32,13 @@ This is a subsection of the middle bit. Quisque sit amet tempus arcu, ac suscipi
 ## Summary of chapters
 
 <!-- 
-For italic, add one * on either side of the text
-For bold, add two * on either side of the text
+For italic, add _ on either side of the text
+For bold, add ** on either side of the text
 For bold and italic, add _** on either side of the text
 -->
 
-This is a brief outline of what went into each chapter. **Chapter 1** gives a background on duis tempus justo quis arcu consectetur sollicitudin.  **Chapter 2** discusses morbi sollicitudin gravida tellus in maximus.  **Chapter 3** discusses vestibulum eleifend turpis id turpis sollicitudin aliquet.  **Chapter 4** shows how phasellus gravida non ex id aliquet. Proin faucibus nibh sit amet augue blandit varius.
+This is a brief outline of what went into each chapter, and a section which shows how to reference headers (which are labelled automatically for you). This chapter, +@sec:introduction-with-a-citation, shows how to use citations and how to reference section headers. \*@sec:literature-review-with-maths shows how use and reference equations. \*@sec:first-research-study-with-code shows how to use and reference code. \*@sec:research-containing-a-figure shows how to use, reference, and resize pdf and jpg figures. \*@sec:research-containing-a-table shows how to use and reference tables. \*@sec:final-research-study is truly revolutionary (but shows nothing functional). **[Appendix 1](#appendix-1-some-extra-stuff)** shows how to add chapters which are not numbered, and has to be referenced manually, as does **[Appendix 2](#appendix-2-some-more-extra-stuff)**. See the base [`README.md`](https://github.com/tompollard/phd_thesis_markdown/blob/master/README.md) for how References are handled - leave `*_references.md` alone, and provide it to `pandoc` last.
+
+Proin faucibus nibh sit amet augue blandit varius.
 
 
